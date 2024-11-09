@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum UserRegistration.Role",
+						"name": "role",
+						"type": "uint8"
+					}
+				],
+				"name": "UserRegistered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "enum UserRegistration.Role",
+						"name": "_role",
+						"type": "uint8"
+					}
+				],
+				"name": "registerUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "enum UserRegistration.Role",
+						"name": "role",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "registered",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/11_User Registration and Authentication.sol": "UserRegistration"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/11_User Registration and Authentication.sol": {
+			"keccak256": "0x51e9a3ace733cca8c0de47dd2eacd212f5718b7c753ed24a5e2a4af666d3e7c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc9a361d205d0a63cce2e5889e107f24514351291e80a5721b8fdba38b05b8c9",
+				"dweb:/ipfs/QmddgQMXw5fq6DT9M3EHcuAkCpskD9fJt9iqXiazsizR53"
+			]
+		}
+	},
+	"version": 1
+}

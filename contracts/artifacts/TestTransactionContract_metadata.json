@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCompleteTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testConfirmTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInitiateTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testCompleteTransaction()": {
+					"notice": "Test completing a transaction"
+				},
+				"testConfirmTransaction()": {
+					"notice": "Test confirming a transaction"
+				},
+				"testInitiateTransaction()": {
+					"notice": "Test initiating a transaction"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/10_TestingTransactionContract.sol": "TestTransactionContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/10_TestingTransactionContract.sol": {
+			"keccak256": "0xc431365c972bcc23e485fbad0b80c7720be9337590af80884de20c745fcec670",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://884564aa9cb0616cee645bfa74afd186714f9e6f8ea89a00df819c8bb709387b",
+				"dweb:/ipfs/QmXVWBu88NZWiooQFKowjquNMknZMCdvywNCTWw5fLqm7N"
+			]
+		},
+		"contracts/7_TransactionContract.sol": {
+			"keccak256": "0x354a392fb995e9b4d6b38e05de42173e3c5052d3ee87015c9f9d8d25e0f72099",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6ed3b064a2f3b7f99db4b7f214a6a1d86752b30ce0d4358fa35dcb26e5bb3ab2",
+				"dweb:/ipfs/QmRCcjBnWA2M91RzmX7A394VqTANTTcb6hi38WpBgLu7LZ"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testPropertyListing",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUpdatePropertyPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testPropertyListing()": {
+					"notice": "Test property listing"
+				},
+				"testUpdatePropertyPrice()": {
+					"notice": "Test updating property price"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_TestingPropertyContract.sol": "TestPropertyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6_PropertyContract.sol": {
+			"keccak256": "0xfa9fec62214383336b86715b5df5a0025984c3ff218b6eccc5901a2e29568c6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c16f1515b6fe4b42a4a1137f93ef5ebfaa399956d32224fcdef7d97ce698288",
+				"dweb:/ipfs/QmPd9wFhhe5VALu1R4ZqV8nVV1oL8rMzqUz5DfWnKPXJ4G"
+			]
+		},
+		"contracts/9_TestingPropertyContract.sol": {
+			"keccak256": "0xfd0fc7a01bc043fb92bea7a46c6f84252faff5932a889fe388260c476d7d2a23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70ad824fdcb9ac2d7db44a8c3da46f9d0dd3a50bf211332dc9b73d93f052ed81",
+				"dweb:/ipfs/QmX9gWBpGE1UJk93goqo1iED4h6jkv7LC9kGQTBEcLMZxN"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}

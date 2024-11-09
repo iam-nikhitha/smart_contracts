@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailRegisterSameUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUserRegistration",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testFailRegisterSameUser()": {
+					"notice": "Test duplicate registration prevention indirectly"
+				},
+				"testUserRegistration()": {
+					"notice": "Test if user registration works"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_TestingUserContract.sol": "TestUserContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_UserContract.sol": {
+			"keccak256": "0xfebde5a2979d832e0b4afeef1277a525dff2c80705978959784ead8de755d4b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65fbc7d08928e9a13064245be0eef5caf377944be2b9fd8349bc9dfb72029d6f",
+				"dweb:/ipfs/QmUX2WqaZou35EaqCURzetH3L36DPQWyUjnk2ycwxMvG29"
+			]
+		},
+		"contracts/8_TestingUserContract.sol": {
+			"keccak256": "0x5e15be0f45c546de2c2ebf60de84ebdfa78f36d324c3b3350a7a0d96f7e159e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://debb78a02840dbdf517e66d11de7f4165d0059fee9020f4fb9e478c8ab2fd097",
+				"dweb:/ipfs/Qmf8VT4XfcAGrPNQ97pBPcCY5DXxtNRSyK2i3KxkYzN4Ni"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}
